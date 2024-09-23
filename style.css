@@ -1,0 +1,33 @@
+body{
+    background-color: black;
+    margin: 0;
+    padding: 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+}
+
+
+button {
+    padding: 8px;
+    border-radius: 5px;
+    background-color: #f13503;
+    color: white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    font-size: 20px;
+}
+
+#container {
+    border: 1px solid #ec7063;
+    width: 75vh;
+    height: 75vh;
+    display: grid;
+}
+
+.block {
+    border: 2px solid white;
+}
+
